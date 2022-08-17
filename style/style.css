@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.fix-size-conteiner {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
