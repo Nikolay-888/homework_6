@@ -1,13 +1,175 @@
-*{
-    box-sizing: border-box;
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
 }
 
-.fix-size-conteiner {
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+   }
+
+.fix-size-container {
     width: 1100px;
+    margin: 0 auto;
+} 
+
+.header {
+    background: #EEEFF1;
+    padding-top: 79px;
+}
+
+.inline-block {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .item a {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header a.active {
+    font-family: "Roboto-Medium", Arial, sans-serif;
+    font-weight: 500;
+    color: #34547A;
+}
+
+.header .margin ~ .item {
+    margin-left: 42px;
+}
+
+.section-first {
+    background: #EEEFF1;
+    padding: 164px 0 144px 0;
+
+}
+
+.title {
+    font-family: "Roboto-Medium", Arial, sans-serif;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 60px;
+
+}
+
+.text-info {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+}
+
+.section-first .margin {
+    margin-bottom: 65px;
+}
+
+.button {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.section-second {
+    background-color: white;
+    padding: 106px 0;
+}
+
+.title-second {
+    font-family: "Roboto-Medium", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-auto {
     margin: 0 auto;
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.section-third {
+    background: #34547A;
+    padding: 100px 0;
+}
+
+.card {
+    width: 141px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 19px;
+}
+
+.card-text {
+    width: 72px;
+    color: white;
+}
+
+.card-text .num {
+    font-family: "Roboto-Medium", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.card-text .text {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.margin ~ .card {
+    margin-left: 45px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.footer {
+    background: #34547A;
+    padding: 50px 0;
+}
+
+.name {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.info {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
